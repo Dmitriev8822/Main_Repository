@@ -10,7 +10,7 @@ from random import randint
 class Test(QMainWindow):
     def __init__(self):
         super().__init__()
-        uic.loadUi('new.ui', self)
+        uic.loadUi('UI.ui', self)
 
         self.pushButton.clicked.connect(self.circle)
 
